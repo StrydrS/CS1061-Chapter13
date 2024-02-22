@@ -1,0 +1,11 @@
+What does it mean when you use the final modifier for a class?
+
+When you use the final modifier for a class in Java, 
+it means that the class cannot be subclassed or extended by 
+other classes. In other words, a final class is considered 
+"immutable" in terms of inheritance.
+
+- Prevents inheritance
+- Immutable class
+- performance optimization as compiler knows it 
+cannot be subclassed by another class

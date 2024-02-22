@@ -1,0 +1,12 @@
+What does it mean when you use the final modifier for a method?
+
+
+When you use the final modifier for a method in Java, 
+it means that the method cannot be overridden or redefined 
+by subclasses. In other words, a final method is considered
+ "immutable" in terms of method overriding.
+
+ - Prevents overriding 
+ - fixed behavior, method will not change
+ - performance optimization, compiler knows
+ method cannot be overwritten and behavior is fixed

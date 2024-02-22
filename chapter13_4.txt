@@ -1,0 +1,13 @@
+Suppose that you have three classes—HomeInsurance (insurance for a
+home), InsurancePolicy (insurance for anything), and FloodDamageInsurance
+(insurance for flood damage to a home). Assume that the three classes form an
+inheritance hierarchy. Describe the inheritance relationships that exist between classes.
+For each relationship, specify the superclass and subclass.
+
+Answer: 
+The inheritance hierarchy for the three classes is determined by the purpose of each class.
+At the top of the hierarchy, the superclass InsurancePolicy is the first class. It is the parent to 
+HomeInsurance, which is the child in this relationship. The insurance policy is the overall policy of the user,
+and home insurance is a type of insurance that you can buy under the insurance policy. Again, HomeInsurance is the
+parent of the FloodDamageInsurance, and flood damage insurance is the child of HomeInsurance. FloodDamageInsurance is a 
+type of home insurance that you can purchase. 

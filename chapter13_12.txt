@@ -1,0 +1,10 @@
+bicycle        mountain bike           inheritance
+bicycle        front wheel             composition
+tree           leaf                    composition
+building       residence               inheritance
+vegetation     vine                    inheritance
+person         nose                    composition
+animal         raccoon                 inheritance
+language       French                  inheritance
+army           soldier                 composition
+method         parameter               composition

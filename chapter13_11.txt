@@ -1,0 +1,5 @@
+If a Y class "is a" special form of an X class, there is an inheritance association, 
+and the right side of Y’s class heading will contain the words "extends X".
+
+If an object X "has an" object Y and also "has an" object Z, there is a composition association, 
+and X’s class definition will contain declarations for Y and Z variables.

@@ -1,0 +1,12 @@
+
+The problem that occurs when the provided printThis method executes
+ is that it causes infinite recursion, leading to a StackOverflowError. 
+This happens because the subclass's printThis method calls itself recursively 
+without any base case or termination condition, leading to an endless loop of method calls.
+
+Here's how to fix it: 
+
+public void printThis(String str) {
+    System.out.println("In this subclass's printThis method");
+    super.printThis(str); // Call superclass's printThis method
+}
